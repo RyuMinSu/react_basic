@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+	<button id="btn">Click Me</button>
+</body>
+<script>
+	/*
+	[기본순서]
+	 1. querySelector or getElementBy... 을 이용해 요소 찾기
+	 2. 찾은 요소에 addEventListener로 event추가
+	 3. 추가한 event가 실행된 후 실행될 함수 정의
+	*/
+
+	// 기본순서 1
+	const button = document.getElementById("btn"); 
+	// 기본순서 3
+	function handleClick() {
+		console.log("i have been clicked")
+	}
+	// 기본순서 2
+	button.addEventListener("click", handleClick)
+	
+</script>
+</html>
