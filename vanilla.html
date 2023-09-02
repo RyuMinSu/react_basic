@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+	<span>Total Clicks: </span>
+	<button id="btn">Click Me</button>
+</body>
+<script>
+	/*
+	[기본순서]
+	 1. querySelector or getElementBy... 을 이용해 요소 찾기
+	 2. 찾은 요소에 addEventListener로 event추가
+	 3. 추가한 event가 실행된 후 실행될 함수 정의
+	*/
+
+	let counter = 0;
+	const button = document.getElementById("btn");
+	const span = document.querySelector("span");	
+	function handleClick() {
+		counter = counter + 1
+		span.innerText = `Total Clicks: ${counter}`
+	}	
+	button.addEventListener("click", handleClick);
+	
+</script>
+</html>
