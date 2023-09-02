@@ -52,9 +52,11 @@
 
 	// state	
 	function App(){
+		// useState를 하면 [data, modifier]를 받게 된다
+		// modifier는 data를 변경하고 리렌더링시킬 함수를 의미한다 > 이걸 커스텀 해준다
 		const [counter, setCounter] = React.useState(0);
-		const onClick = () => {
-			setCounter(counter + 1);
+		const onClick = () => {			
+			setCounter((current) => current+1);
 		}
 		return (
 			<div>
