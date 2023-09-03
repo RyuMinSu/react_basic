@@ -8,7 +8,7 @@
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
 <script type="text/babel">
-	function App() {
+	function MinutesToHours() {
 		const [amount, setAmount] = React.useState();
 		const [flipped, setFlipped] = React.useState(false);
 
@@ -24,8 +24,7 @@
 		}
 
 		return (
-			<div>
-				<h1>Super Converter</h1>
+			<div>				
 				<div>
 					<label htmlFor="minutes">Minutes</label>
 					<input value={flipped ? amount*60 : amount} id="minutes" placeholder="Minutes" type="number" onChange={onChange} disabled={flipped} />
@@ -37,6 +36,30 @@
 				</div>
 				<button onClick={reset}>reset</button>
 				<button onClick={onFlip}>Flipped</button>
+			</div>
+		)
+	}
+	function KmToMiles() {
+		return <h3>Km 2 Miles</h3>
+	}
+	function App() {
+		const [index, setIndex] = React.useState("xx")
+		const onSelect = (event) => {
+			setIndex(event.target.value)
+			console.log(event.target.value)
+		}
+		return (
+			<div>
+				<h1>Super Converter</h1>
+				<select onChange={onSelect}>
+					<option value="xx">Select Unit</option>
+					<option value="0">Minutes & Hours</option>
+					<option value="1">Kilometers & Miles</option>
+				</select>
+				<hr />
+				{index === "xx" ? "Please Select Your unit" : null}
+				{index === "0" ? <MinutesToHours /> : null}
+				{index === "1" ? <KmToMiles /> : null}
 			</div>
 		)
 	}
