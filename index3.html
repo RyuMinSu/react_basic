@@ -3,8 +3,9 @@
 <body>
 	<div id="root"></div>
 </body>
-<script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/prop-types@15.7.2/prop-types.js"></script>
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
 <script type="text/babel">
@@ -16,18 +17,20 @@
 				"color": "white",
 				"padding": "10px 20px",
 				"border": 0,
-				"borderRadius": 10,				
+				"borderRadius": 10,
 			}}>{ text }</button>
 		)
 	}
-	const MemorizedBtn = React.memo(Btn)
+	Btn.propTypes = {
+		text: PropTypes.string.isRequired,
+		fontSize: PropTypes.number.isRequired,
+	}
 	function App() {
 		const [value, setValue] = React.useState("change")
 		const changeValue = () => {setValue("revert change")}
 		return (
 			<div>
-				<MemorizedBtn text={ value } changeValue={changeValue} />
-				<MemorizedBtn text="confirm" />
+				<Btn text={ value } changeValue={changeValue} />				
 			</div>
 		)
 	}

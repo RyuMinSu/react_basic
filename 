@@ -1,0 +1,83 @@
+[33mcommit 2f9df174b6b107fad2cc8ecdbff9aa06d9ac0a16[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: RyuMinSu <sonicsu94@gmail.com>
+Date:   Sun Sep 3 21:47:44 2023 +0900
+
+    react propTypes
+
+[33mcommit 54e903889b79cb8fcd1d1cf4ca4b613cb1ca1bca[m
+Author: RyuMinSu <sonicsu94@gmail.com>
+Date:   Sun Sep 3 21:36:17 2023 +0900
+
+    react memo practice
+
+[33mcommit 8fe7576e3f3267e680f0308930c87ad5431d3108[m
+Author: RyuMinSu <sonicsu94@gmail.com>
+Date:   Sun Sep 3 21:18:45 2023 +0900
+
+    jsx props practice
+
+[33mcommit 9b6b068146410926d08b4ccb8005c73e0f56def3[m
+Author: RyuMinSu <sonicsu94@gmail.com>
+Date:   Sun Sep 3 20:59:57 2023 +0900
+
+    create select box using jsx
+
+[33mcommit b3aff63faf05b67719d18ca91f1f4f68ac58382f[m
+Author: RyuMinSu <sonicsu94@gmail.com>
+Date:   Sat Sep 2 23:29:26 2023 +0900
+
+    create time converter
+
+[33mcommit 3b989c656bc350cffd95d3be357054689202c007[m
+Author: RyuMinSu <sonicsu94@gmail.com>
+Date:   Sat Sep 2 22:02:56 2023 +0900
+
+    react useState
+
+[33mcommit 77b25322ead0f0241a9b8f79f2dfe17df765f4bf[m
+Author: RyuMinSu <sonicsu94@gmail.com>
+Date:   Sat Sep 2 21:17:39 2023 +0900
+
+    jsx from component to function
+
+[33mcommit 9c502ff33b5bd9b7acaff598f19c3fec645d6d13[m
+Author: RyuMinSu <sonicsu94@gmail.com>
+Date:   Sat Sep 2 20:59:28 2023 +0900
+
+    from react to JSX using babel
+
+[33mcommit 1f6cbea00cacc47ddb422feb406328497ac79d6b[m
+Author: RyuMinSu <sonicsu94@gmail.com>
+Date:   Sat Sep 2 20:36:31 2023 +0900
+
+    created element and modified property
+
+[33mcommit 575333adf42ea4d6be2bc60895244a4c94f95129[m
+Author: RyuMinSu <sonicsu94@gmail.com>
+Date:   Sat Sep 2 18:41:19 2023 +0900
+
+    first react script
+
+[33mcommit 176ee1b791f602540a0a4f2d2f7c2ab7457399d1[m
+Author: RyuMinSu <sonicsu94@gmail.com>
+Date:   Sat Sep 2 18:27:29 2023 +0900
+
+    import react
+
+[33mcommit aad004d9f1704a4fbcbfe67c8b1a281340cefd26[m
+Author: RyuMinSu <sonicsu94@gmail.com>
+Date:   Sat Sep 2 18:12:56 2023 +0900
+
+    click count from vanillaJS
+
+[33mcommit 8a648d09a1e8852dcef4e958b99f5684b92207bb[m
+Author: RyuMinSu <sonicsu94@gmail.com>
+Date:   Sat Sep 2 18:03:18 2023 +0900
+
+    click button from vanillaJS
+
+[33mcommit 27c5b647e7e7274dae5f21f58a52844c30c1b65f[m
+Author: RyuMinSu <sonicsu94@gmail.com>
+Date:   Sat Sep 2 17:43:36 2023 +0900
+
+    first commit
